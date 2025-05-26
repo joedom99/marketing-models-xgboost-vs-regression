@@ -3,6 +3,7 @@
 [![R](https://img.shields.io/badge/R-4.3.1-blue?logo=r)](https://www.r-project.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Made With Love](https://img.shields.io/badge/made%20with-%E2%9D%A4-red)](https://blog.marketingdatascience.ai)
+[![CRAN](https://img.shields.io/badge/powered%20by-CRAN-blue)](https://cran.r-project.org/)
 
 This project compares a classic **linear regression model** with a modern **XGBoost model** using a real-world-style marketing dataset. The goal is to predict sales based on advertising spend and visualize model performance, accuracy, and feature importance.
 
