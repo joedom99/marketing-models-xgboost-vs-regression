@@ -27,7 +27,7 @@ install.packages(c("datarium", "xgboost", "Metrics", "tidyverse", "reshape2"))
 
 ## 🚀 Running the Script
 
-Run the provided R script (`marketing-xgboost-vs-regression.R`) to:
+Run the provided R script (`marketing-xgboost-vs-regression-ver3.R`) to:
 
 1. Load and split the data  
 2. Train both models  
