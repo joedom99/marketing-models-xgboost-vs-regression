@@ -30,6 +30,7 @@ summary(lm_model)
 
 # Step 5: Predict sales using the linear regression model
 lm_preds <- predict(lm_model, newdata = test_data)
+head(lm_preds)
 
 # Step 6: Evaluate linear regression performance (RMSE and R²)
 lm_rmse <- rmse(test_data$sales, lm_preds)
@@ -112,7 +113,7 @@ ggplot(plot_melt, aes(x = Actual, y = Predicted, color = Model)) +
 
 # Step 14: Feature Importance Bar Charts for Both Models
 
-# Linear Regression
+# 14a. Linear Regression
 ggplot(lm_importance, aes(x = reorder(Feature, AbsEstimate), y = AbsEstimate)) +
   geom_col(fill = "steelblue") +
   coord_flip() +
@@ -122,7 +123,7 @@ ggplot(lm_importance, aes(x = reorder(Feature, AbsEstimate), y = AbsEstimate)) +
   ) +
   theme_minimal()
 
-# XGBoost (use Gain for importance)
+# 14b. XGBoost (use Gain for importance)
 xgb_importance_df <- xgb_importance %>%
   mutate(Feature = reorder(Feature, Gain))
 
