@@ -5,7 +5,7 @@
 [![Made With Love](https://img.shields.io/badge/made%20with-%E2%9D%A4-red)](https://blog.marketingdatascience.ai)
 [![CRAN](https://img.shields.io/badge/powered%20by-CRAN-blue)](https://cran.r-project.org/)
 
-This project compares a classic **linear regression model** with a modern **XGBoost model** using a real-world-style marketing dataset. The goal is to predict sales based on advertising spend and visualize model performance, accuracy, and feature importance.
+This project compares a classic **linear regression model** with a modern **XGBoost model** using a real-world-style marketing dataset. The goal is to predict sales based on advertising spend and visualize model performance, accuracy, and feature importance. You can read more about this in my blog post that accompanies this repo - [Linear Regression vs. XGBoost — Which Predicts Sales Better (Using R)?](https://blog.marketingdatascience.ai/linear-regression-vs-xgboost-which-predicts-sales-better-using-r-3bdf5aaab6bc)
 
 Created by [Joe Domaleski](https://blog.marketingdatascience.ai), June 2025.
 
